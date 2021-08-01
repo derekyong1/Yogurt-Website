@@ -85,50 +85,71 @@
             </div>
           </div>
 
+          <!-- Founder Message -->
 
+          <div class="row m-5">
+            <div class="col-12 col-md-4 ">
+              <img src="images/headshot-dan.jpg" class="img-fluid border rounded-start border-lg border-0" alt="Owner Founder">
+            </div>
+            <div class="col-12 col-md-8 bg-white p-5 d-flex align-items-center border border-dark border rounded-end border-lg">
+              <section>
+                <h2>Message from our Founder</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sunt quo ea laboriosam placeat! Repudiandae, minus sit eaque expedita architecto, iusto, dolores dolor deleniti odio vero necessitatibus? Doloribus vero repudiandae quis! Accusamus temporibus soluta velit illo natus nihil error minus facilis deserunt earum. Libero, adipisci inventore dicta necessitatibus consequatur expedita iste debitis corporis. Dolorem debitis commodi voluptate quia. Eveniet, beatae!</p>
+              </section>
+            </div>
+          </div>
 
           <!-- Carousel Slide Show -->
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <!-- Fade looks strange because of the transparent background -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="500">
                 <img src="images/yogurt-1.png" class="d-block w-100" alt="yogurt picture 1">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="1000">
                 <img src="images/yogurt-2.png" class="d-block w-100" alt="yogurt picture 2">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="500">
                 <img src="images/yogurt-3.png" class="d-block w-100" alt="yogurt picture 3">
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
     </div>
 
 
     <!-- Card -->
-    <div class="card" style="width: 18rem;">
-      <img src="images/product1.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-group">
+      <div class="card m-5" style="width: 18rem;">
+        <img src="images/product1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="images/product2.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card m-5" style="width: 18rem;">
+        <img src="images/product2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="images/product3.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="card m-5" style="width: 18rem;">
+        <img src="images/product3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     </div>
 
